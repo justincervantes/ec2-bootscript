@@ -5,4 +5,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node
 sudo yum install git -y
 git clone https://github.com/justincervantes/socketio-server-demo.git
+cd socketio-server-demo
 node index.ts
